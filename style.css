@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+}
+body{
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    
+    width: 100%;
+    /* background-color: red; */
+    border-bottom: 1px solid #00000080;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+.main-section{
+    width: 100%;
+    height: calc(100vh - 97px);
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    height: 80%;
+    width: 80%;
+    /* background-color: yellow; */
+    display: flex;
+
+}
+.image{
+    width: 50%;
+    background-image: url(./images/login-image.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cred{
+    width: 50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cred form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    width: 60%;
+    
+}
+.cred form a{
+    color: #000000;
+}
+.form-head{
+    margin-bottom: 30px;
+    font-size: 18px;
+    
+}
+.cred input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 0 0 0 5px;
+
+}
+.cred button{
+    background-color: #DB4444;
+    color: #fff;
+    border: none;
+    padding: 5px 0;
+}
+.login-button{
+    display: flex;
+    justify-content: space-between;
+}
+.login-button button{
+    padding: 5px 25px;
+    border: none;
+    color: #fff;
+    background-color: #DB4444;
+    border-radius: 4px;
+}
+.login-button a{
+    color: #DB4444;
+    text-decoration: none;
+}
+.main-cntr{
+    margin: 10px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link ul{
+    display: flex;
+    gap: 48px;
+
+}
+.nav-link a{
+    text-decoration: none;
+    color: #000000;
+}
+.nav-icons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.search{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    background-color: #F5F5F5;
+    gap: 10px;
+    padding: 2px 1px 2px 1px;
+    margin-right: 8px;
+}
+.search input, .search button{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.search button{
+    cursor: pointer;
+    margin-top: 2px;
+}
+.dir-v{
+    margin-right: 1110px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+.c-main{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+table{
+    width: 80%;
+    table-layout: fixed;
+}
+table ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.05);
+    height: 20px;
+    padding: 30px;
+
+}
+li{
+    list-style: none;
+}
+.c-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.price{
+    margin-left: -79px;
+}
+.qty{
+    margin-left: 10px;
+}
+.qty input{
+    width: 60px;
+    height: 35px;
+    outline: none;
+    border: 1px solid #00000080;
+}
+.subtotal{
+    margin-right: 20px;
+}
+.list-link{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.list-link a{
+    border: 1px solid #00000080;
+    border-radius: 4px;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: black;
+
+}
+.list-link a:hover{
+    color: #7D8184;
+}
+.c-cash{
+    /* background-color: blue; */
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+input{
+    padding-left: 15px;
+}
+.coupon{
+    display: flex;
+    gap: 20px;
+}
+.coupon input{
+    width: 230px;
+    height: 38px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.coupon button{
+    height: 39px;
+    width: 180px;
+    border: none;
+    background-color: #DB4444;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.coupon button:hover{
+    background-color: #E07575;
+}
+.c-total{
+    border: 1.5px solid #000000;
+    border-radius: 4px;
+    padding: 15px 20px;
+    /* background-color: yellow; */
+    width: 350px;
+    height:fit-content;
+}
+.c-total button{
+    margin: 0 auto;
+    display: block;
+    height: 39px;
+    width: 80%;
+    background-color: #DB4444;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+
+}
+.c-t-cmpnt{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    border-bottom: 1px solid black;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
